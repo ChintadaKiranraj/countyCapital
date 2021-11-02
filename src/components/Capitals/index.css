@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.dropDown {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+p {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+select {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-right: 15px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #93c5fd;
+  padding: 30px;
+  border-style: none;
+  border-radius: 10px;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  padding: 20px;
+  height: 100vh;
+}
